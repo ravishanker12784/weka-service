@@ -147,6 +147,4 @@ mvn test
 
 You can configure the application by modifying the `src/main/resources/application.properties` file. This file allows you to set various properties such as server port and database configurations.
 
-## License
 
-This project is licensed under the MIT License."# weka-service" 
