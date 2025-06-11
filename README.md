@@ -5,20 +5,109 @@ This is a simple Spring Boot application that serves as a demonstration of how t
 ## Project Structure
 
 ```
-my-spring-boot-project
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com
-│   │   │       └── example
-│   │   │           └── Application.java
-│   │   └── resources
-│   │       └── application.properties
-│   └── test
-│       └── java
-│           └── com
-│               └── example
-│                   └── ApplicationTests.java
+weka-service
+├──├──+---src
+├──¦   +---main
+├──¦   ¦   +---java
+├──¦   ¦   ¦   +---com
+├──¦   ¦   ¦       +---example
+├──¦   ¦   ¦           +---recommendation
+├──¦   ¦   ¦               ¦   RecommendationEngineApplication.java
+├──¦   ¦   ¦               ¦   
+├──¦   ¦   ¦               +---config
+├──¦   ¦   ¦               ¦       DataInitializer.java
+├──¦   ¦   ¦               ¦       
+├──¦   ¦   ¦               +---controller
+├──¦   ¦   ¦               ¦       RecommendationController.java
+├──¦   ¦   ¦               ¦       
+├──¦   ¦   ¦               +---entity
+├──¦   ¦   ¦               ¦       Item.java
+├──¦   ¦   ¦               ¦       Rating.java
+├──¦   ¦   ¦               ¦       User.java
+├──¦   ¦   ¦               ¦       
+├──¦   ¦   ¦               +---repository
+├──¦   ¦   ¦               ¦       ItemRepository.java
+├──¦   ¦   ¦               ¦       RatingRepository.java
+├──¦   ¦   ¦               ¦       UserRepository.java
+├──¦   ¦   ¦               ¦       
+├──¦   ¦   ¦               +---service
+├──¦   ¦   ¦                       RecommendationService.java
+├──¦   ¦   ¦                       
+├──¦   ¦   +---resources
+├──¦   ¦           application.properties
+├──¦   ¦           
+├──¦   +---test
+├──¦       +---java
+├──¦       ¦   +---com
+├──¦       ¦       +---example
+├──¦       ¦           ¦   ApplicationTests.java
+├──¦       ¦           ¦   
+├──¦       ¦           +---recommendation
+├──¦       ¦               +---controller
+├──¦       ¦                       RecommendationControllerTest.java
+├──¦       ¦                       
+├──¦       +---resources
+├──¦               application.properties
+├──¦               
+├──+---target
+├──    ¦   recommendation-engine-0.0.1-SNAPSHOT.jar
+├──    ¦   
+├──    +---classes
+├──    ¦   ¦   application.properties
+├──    ¦   ¦   
+├──    ¦   +---com
+├──    ¦       +---example
+├──    ¦           +---recommendation
+├──    ¦               ¦   RecommendationEngineApplication.class
+├──    ¦               ¦   
+├──    ¦               +---config
+├──    ¦               ¦       DataInitializer.class
+├──    ¦               ¦       
+├──    ¦               +---controller
+├──    ¦               ¦       RecommendationController.class
+├──    ¦               ¦       
+├──    ¦               +---entity
+├──    ¦               ¦       Item.class
+├──    ¦               ¦       Rating.class
+├──    ¦               ¦       User.class
+├──    ¦               ¦       
+├──    ¦               +---repository
+├──    ¦               ¦       ItemRepository.class
+├──    ¦               ¦       RatingRepository.class
+├──    ¦               ¦       UserRepository.class
+├──    ¦               ¦       
+├──    ¦               +---service
+├──    ¦                       RecommendationService$ItemPrediction.class
+├──    ¦                       RecommendationService.class
+├──    ¦                       
+├──   +---generated-sources
+├──    ¦   +---annotations
+├──    +---generated-test-sources
+├──    ¦   +---test-annotations
+├──    +---maven-archiver
+├──    ¦       pom.properties
+├──    ¦       
+├──    +---maven-status
+├──    ¦   +---maven-compiler-plugin
+├──    ¦       +---compile
+├──    ¦       ¦   +---default-compile
+├──    ¦       ¦           createdFiles.lst
+├──    ¦       ¦           inputFiles.lst
+├──    ¦       ¦           
+├──    ¦       +---testCompile
+├──    ¦           +---default-testCompile
+├──    ¦                   createdFiles.lst
+├──    ¦                   inputFiles.lst
+├──    ¦                   
+├──   +---test-classes
+├──        ¦   application.properties
+├──        ¦   
+├──        +---com
+├──            +---example
+├──                +---recommendation
+├──                    +---controller
+├──                            RecommendationControllerTest.class
+├──
 ├── pom.xml
 └── README.md
 ```
