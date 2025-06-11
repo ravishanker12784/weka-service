@@ -1,0 +1,10 @@
+C:\Users\errav\OneDrive\Documents\java-weka\my-spring-boot-project\src\main\java\com\example\recommendation\RecommendationEngineApplication.java
+C:\Users\errav\OneDrive\Documents\java-weka\my-spring-boot-project\src\main\java\com\example\recommendation\repository\UserRepository.java
+C:\Users\errav\OneDrive\Documents\java-weka\my-spring-boot-project\src\main\java\com\example\recommendation\config\DataInitializer.java
+C:\Users\errav\OneDrive\Documents\java-weka\my-spring-boot-project\src\main\java\com\example\recommendation\entity\Rating.java
+C:\Users\errav\OneDrive\Documents\java-weka\my-spring-boot-project\src\main\java\com\example\recommendation\repository\RatingRepository.java
+C:\Users\errav\OneDrive\Documents\java-weka\my-spring-boot-project\src\main\java\com\example\recommendation\entity\Item.java
+C:\Users\errav\OneDrive\Documents\java-weka\my-spring-boot-project\src\main\java\com\example\recommendation\controller\RecommendationController.java
+C:\Users\errav\OneDrive\Documents\java-weka\my-spring-boot-project\src\main\java\com\example\recommendation\entity\User.java
+C:\Users\errav\OneDrive\Documents\java-weka\my-spring-boot-project\src\main\java\com\example\recommendation\repository\ItemRepository.java
+C:\Users\errav\OneDrive\Documents\java-weka\my-spring-boot-project\src\main\java\com\example\recommendation\service\RecommendationService.java

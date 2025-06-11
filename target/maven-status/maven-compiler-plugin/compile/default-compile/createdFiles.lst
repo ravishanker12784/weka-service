@@ -1,0 +1,11 @@
+com\example\recommendation\entity\Item.class
+com\example\recommendation\repository\ItemRepository.class
+com\example\recommendation\repository\UserRepository.class
+com\example\recommendation\entity\Rating.class
+com\example\recommendation\entity\User.class
+com\example\recommendation\service\RecommendationService$ItemPrediction.class
+com\example\recommendation\service\RecommendationService.class
+com\example\recommendation\RecommendationEngineApplication.class
+com\example\recommendation\config\DataInitializer.class
+com\example\recommendation\controller\RecommendationController.class
+com\example\recommendation\repository\RatingRepository.class
