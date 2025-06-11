@@ -60,4 +60,4 @@ You can configure the application by modifying the `src/main/resources/applicati
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License."# weka-service" 
